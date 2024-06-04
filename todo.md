@@ -1,1 +1,0 @@
-- ajustar tamanho da div para sempre ficar no centralizada com tamanho definido

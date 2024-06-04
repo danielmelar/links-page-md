@@ -1,4 +1,4 @@
-# Onde você pode me encontrar Onde você pode me encontrar Onde você pode me encontrar Onde você pode me encontrar:
-- [Twitter](https://twitter.com)
-- [Linkdin](https://linkedin.com)
-- [Github](https://github.com)
+# Onde podes me encontrar:
+[Twitter](https://twitter.com/danielmelar)
+[Linkedin](https://linkedin.com/in/danielmeloaguilar)
+[Github](https://github.com/danielmelar)

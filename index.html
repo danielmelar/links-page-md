@@ -2,32 +2,40 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>all my links</title>
+    <title>Links</title>
     <script src="https://cdn.jsdelivr.net/npm/marked@2.0.0/marked.min.js"></script>
     <style>
+
         body {
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin-top: auto;
+            font-family: Inter;
+            display: flex;
             align-items: center;
+            justify-content: center;
+        }
+        
+        #content {
+            display: table;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: 5% auto;
+        }
+
+        a {
+            font-size: 1.3rem;
             display: flex;
             justify-content: center;
-            
+            margin-bottom: 20px;
         }
 
-        h1, h2, h3, h4, h5, h6 {
-            font-family: monospace;
-        }
-
-        div {
-            background-color: blue;
+        img {
+            width: 300px;
         }
     </style>
 </head>
 <body>
-    <div id="content"></div>
+    <div id="content"></div> 
     <script>
-        <!-- fetch é respondido por response, que é modificado por data | then <- then <- fetch -->
         fetch('README.md')
                 .then(response => response.text())
                 .then(data => {
